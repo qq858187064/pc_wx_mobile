@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="App_Themes/Base.css" rel="stylesheet" />
+    <link href="App_Themes/Black/com.css" rel="stylesheet" />
+        <style>
+            h2{text-align:center;padding-bottom:2em}
+            .DW {
+                 display:block!important;
+                 left:-9999px;
+                width:100%;
+                height:100%;
+                background: #000!important;
+            }
+            .Cls{
+                color:#fff;
+            }
+        .img {
+                margin: 0 auto;
+    text-align: center;
+                height:100px;
+                width:600px;    
+                    background: #eee;
+        }
+
+            .img img {
+                display: inline-block;
+                white-space: nowrap;
+                width: 22.5%;
+                border: 1px solid #eee;
+                margin-right: 0.5em;
+                width:90px;
+                height:150px;
+            }
+
+                .img img:last-child {
+                    margin-right: 0;
+                }
+
+      
+        .dbg{
+                filter: alpha(opacity=9);
+    opacity: 0.9;
+        }
+        /*.dw{
+             width: 99%;
+            border:none;
+            background:none;
+            text-align: center;
+        }*/
+        .prev{
+            display:block;
+             width: 100%;
+                 margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+        }
+    </style>
+<title>多端兼容swipe组件</title></head>
+<body class="W"><h2>swipe组件_滑动切换</h2>
+    <p id="img" class="img" p="v:prev,s:['img/aa.jpg','img/bb.jpg','img/cc.jpg','img/dd.jpg','img/ee.jpg']"><!-- p="v:prev,s:['img/aa.jpg','img/bb.jpg','img/cc.jpg','img/dd.jpg','img/ee.jpg']" 可和pop组件调用二合一 -->
+            <img src="img/aa.jpg" />
+            <img src="img/bb.jpg" />
+            <img src="img/cc.jpg" />
+            <img src="img/dd.jpg" />
+            <img src="img/ee.jpg" />
+</p>
+    <p id="dw" class="DW W" p="trig:im,box:dw,bg:'bg',tit:0"><b></b>
+    <a class="Cls" id="cls" onclick="pop.close();">X</a>
+        <img id="prev" class="prev" />
+        <i id="pg" class="pg"></i><i id="count" class="pg"></i>
+    </p>
+    <pre>
+        /*
+        pc+mobile+wx
+        html中的p属性中：
+        s: 用于设置切换源,目前仅考虑图片，未来可扩展
+        v:用于指定显示媒体的窗口
+        */
+    </pre>
+    <script src="Js/Base.js"></script>
+    <script src="Js/pop.js"></script>
+    <script src="Js/swipe.js"></script>
+    <script>
+        var pg = C.G('pg'),
+            im = C.G("img");
+         pop("dw");//弹出框
+        // pop(im);//弹出框
+        swipe(im);//滑屏切换
+    </script>
+</body>
+</html>

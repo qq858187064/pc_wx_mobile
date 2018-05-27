@@ -1,0 +1,189 @@
+﻿html,body,form,div,span,p,h1,h2,h3,h4,h5,h6,a,b,i,em,strong,label,table,tbody,td,th,tr,dl,dt,dd,ul,li,ol,input,img,select,textarea,br,hr,button,map,pre
+{
+    margin:0;
+	padding:0;
+	overflow:hidden;
+    color:#333;
+}
+html 
+{
+	height:100%;
+	overflow-y:scroll;
+	background:#fff;
+		text-align:center;
+
+}
+body {
+    height:100%;
+	margin:0 auto;
+	font:400 14px/2 '微软雅黑','宋体',Verdana;
+	text-align:left;
+	overflow:visible;
+}
+@media screen and (min-width:999px)
+{
+.cross
+{
+	text-align:center;
+    padding-left: 1000px!important;
+    margin-left: -1000px!important;
+    padding-right: 1000px!important;
+    margin-right: -1000px!important;
+}
+}
+/* body *{font-family:'微软雅黑'!important;}
+a{blr:expression(this.onFocus=this.blur());} */
+a:focus {outline: none;}  
+a,
+em,
+i
+{
+	text-decoration:none;
+	font-style:normal;
+}
+img {
+	border:none;
+    
+}
+.Z1
+{
+	zoom:1;
+}
+.ma{
+    margin:0 auto;
+}
+.Org,
+.Org a,
+.Ls a:hover,
+a:hover{
+	color:#f60;
+}
+.L
+{
+	float:left;
+}
+.R
+{
+	float:right;	
+}
+.Ld
+{
+	display:block;
+	background:url(http://hs.cnfol.com/Cm/Imgs/Load.gif) no-repeat center center;
+	position:relative
+}
+.trsho a:hover,
+a.trsho:hover,
+.trs8{
+	filter:alpha(opacity=80)!important;
+	opacity:0.8!important;
+}
+.trs5{
+	filter:alpha(opacity=50);
+	opacity:0.5;
+}
+
+.I2 p,
+p.I2
+{
+	text-indent:2em;
+	margin-bottom:6px;
+}
+.il{
+    display:inline;
+}
+/*.ib label,  */
+/* label label.ib, */
+.sib label,
+.fm label.sib label,
+.fm label.ib,
+.ib
+{
+ display:inline-block;
+*display:inline;
+*zoom:1;
+}
+.dn{
+	display:none;
+}
+.fm label.sib label
+{
+	width:auto;
+
+}
+
+label,
+label input,/*
+label a,
+label i,
+label b,*/
+label img
+{
+    vertical-align:middle;
+}
+
+/********************* Margin *********************/
+.mt9
+{
+	margin-top:10px;
+}
+.mt3
+{
+	margin-top:30px;
+}
+.mv9
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.mb9
+{
+	margin-bottom:10px;
+}
+.mb2
+{
+	margin-bottom:20px;
+}
+.mv9
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.mh9
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.mh3
+{
+	margin-left:30px;
+	margin-right:30px;
+}
+.ml2
+{
+margin-left:20px;
+}
+.ml9
+{
+margin-left:10px;
+}
+.mr9
+{
+margin-right:10px;
+}
+/********************* padding *********************/
+.p9{
+	padding:10px;
+}
+
+.Ifr6
+{
+    width:888px;
+    height:888px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#000;
+    filter:alpha(opacity=0);
+}

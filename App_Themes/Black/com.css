@@ -1,0 +1,1679 @@
+﻿.W
+{
+    width: 960px;
+}
+
+.Bd, .BP
+{
+    border: 1px solid #c6c6c6;
+}
+
+.BP
+{
+    padding: 10px;
+}
+
+.Hd
+{
+    height: 56px;
+}
+
+    .Hd b
+    {
+        color: #999;
+        float: right;
+        font: 600 24px/56px "";
+    }
+
+.Ft
+{
+    height: 100px;
+    padding-top: 36px;
+    margin-top: 32px;
+    background: url(/Images/BtmBg.jpg) repeat-x 0 0;
+}
+
+    .Ft a
+    {
+        padding: 0 16px 0 0;
+    }
+
+.Lg
+{
+    display: inline-block;
+    width: 217px;
+    height: 56px;
+    /*background: url(/Images/logo.png) no-repeat 22px 6px;*/
+}
+
+.SubNav
+{
+    height: 54px;
+    padding: 20px 0 0 22px;
+    background: url(/Images/Icons.gif) no-repeat 0px -550px;
+}
+
+    .SubNav a
+    {
+        margin: 0 0 0 18px;
+    }
+
+    .SubNav i
+    {
+        margin: 0 14px 0 4px;
+    }
+
+.Ra
+{
+    white-space: nowrap;
+    width: 100%;
+    height: 22px;
+}
+
+    .Ra span
+    {
+        display: inline-block;
+    }
+
+        .Ra span i
+        {
+            padding: 0 4px 0 6px;
+        }
+
+        .Ra span a
+        {
+            color: #06c;
+        }
+
+.Bd, .BP
+{
+    border: 1px solid #c6c6c6;
+}
+
+.BP
+{
+    padding: 10px;
+}
+
+dl.Cot dt.Prt b, h5
+{
+    display: block;
+    color: #dd8c0f;
+    height: 30px;
+    font: 600 14px/30px "";
+    background: url(/Images/H5Bg.jpg) repeat-x -5px -3px;
+    border-top: 2px solid #dd8c0f;
+    border-bottom: 1px solid #dcddde;
+    padding: 0 0 0 22px;
+}
+
+dl.Cot dd h5
+{
+    margin: 0 0 10px 0;
+    background-position: -4px -35px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+    dl.Cot dd h5 i
+    {
+        color: #666;
+        font: 400 14px/30px "";
+        margin-left: 18px;
+    }
+
+dd
+{
+    display: none;
+}
+
+dl.Cot dt.Prt
+{
+    width: 200px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: none;
+}
+
+dl.Cot dt.RBar
+{
+    float: right;
+    width: 160px;
+    margin-left: 14px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+    dl.Cot dt.RBar i, dl.Cot dt.RBar a, dl.Cot dt.Prt a
+    {
+        display: block;
+        background: url(/Images/Arrow.gif) no-repeat 10px 12px;
+        font: 400 13px/30px "";
+        border-bottom: 1px dashed #ddd;
+        padding-left: 24px;
+    }
+
+    dl.Cot dt.RBar i, dl.Cot dt.RBar a
+    {
+        cursor: pointer;
+        padding-left: 32px;
+        background: #fff url(/Images/Icons.gif) no-repeat 10px -265px;
+    }
+
+        dl.Cot dt.RBar a:hover, dl.Cot dt.RBar a.CM, dl.Cot dt.Prt a.CM, dl.Cot dt.Prt a:hover
+        {
+            font-weight: 600;
+            color: #f60;
+            border-bottom-style: solid;
+            background: #fafafa url(/Images/Arrow.gif) no-repeat 14px 12px;
+        }
+
+        dl.Cot dt.RBar a:hover, dl.Cot dt.RBar a.CM
+        {
+            background: #f9f9f9 url(/Images/Icons.gif) no-repeat 10px -213px;
+        }
+
+a.BbS
+{
+    border-bottom-style: solid !important;
+}
+
+dl.Cot dd
+{
+    zoom: 1;
+    float: right;
+    width: 740px;
+}
+
+    dl.Cot dd dl dd
+    {
+        width: 539px;
+        float: none;
+        border: 1px solid #ddd;
+        background: #fafafa;
+        padding: 10px;
+        min-height: 495px;
+        height: auto !important;
+        height: 495px;
+        overflow: visible;
+    }
+
+        dl.Cot dd dl dd dl dd
+        {
+            border: none;
+            padding: 0;
+            background: none;
+            min-height: 0;
+            height: auto;
+        }
+
+dl.Cp
+{
+    margin: 0px 0px 12px 0px;
+    padding: 0 12px;
+}
+
+    dl.Cp dt
+    {
+        padding-top: 9px;
+        width: auto;
+        overflow: visible;
+        border-bottom: 1px solid #c8c8c8;
+    }
+
+dl.Cot dd dl dd dl.Cp dd
+{
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 5px 10px;
+    width: auto !important;
+    background: #fff;
+}
+
+dl.Cp dt a
+{
+    display: inline-block;
+    width: 80px;
+    padding: 2px 0 0 24px;
+    font: 600 13px/26px "";
+    height: 26px;
+    background: url(/Images/CMbg.gif) no-repeat 0px 1px;
+    vertical-align: bottom;
+    letter-spacing: 1px;
+    margin-bottom: -1px;
+}
+
+    dl.Cp dt a.CM
+    {
+        background: #fff url(/Images/CMbg.gif) no-repeat 0px -25px;
+        color: #cb5931;
+    }
+
+h6
+{
+    margin-top: 10px;
+    padding: 9px 0 6px 12px;
+    font: 600 14px/28px "";
+    color: #cb5931;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+pre
+{
+    border-top: 1px solid #fff;
+    background: #f9f9f9;
+    padding: 12px;
+    font: 400 14px/28px Verdana;
+    color: #090;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+/******************* 弹出窗开始 *******************/
+.DBg, .DW
+{
+    position:absolute;/*;fixed*/
+    display: none;
+}
+
+/***** 半透明背景： *****/
+.DBg
+{
+    left: 0;
+    top: 0;
+    background: #000;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    width:100%;
+}
+
+/***** 对话框： *****/
+.DW
+{
+    /*width: 360px;
+    height: 240px;*/
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+    /***** 对话框标题： *****/
+    .DW h4
+    {
+        background: #f6ad36;
+        color: #fff;
+        font: 600 14px/20px "";
+        padding: 6px 10px 6px 12px;
+        border: 1px solid #eee;
+    }
+
+        /***** 对话框标题右方的关闭铵钮： *****/
+.Cls
+        {
+            position:absolute;
+            right:0;
+            top:0; 
+            z-index:9999;
+            padding: 12px;
+            font:1.8rem/1.2rem "Arial";
+            cursor: pointer;
+        }
+.Cls:hover{color:#f63;}
+.previous
+{
+    cursor:url(images/previous.cur),auto;
+}
+.next
+{
+    cursor:url(images/next.cur),auto;
+}
+            /*.DW h4 a.Cls:hover
+            {
+                background-position: 4px -430px;
+            }*/
+/***** 对话框内容： *****/
+.Ctt
+{
+    padding: 10px;
+}
+/******************* 弹出窗结束 *******************/
+/******************* 拖动组件开始(部分属性继承自己DW类)*******************/
+.Bar
+{
+    display: block;
+}
+.s,
+    .Bar h4
+    {
+        cursor: move;
+    }
+    .fs
+    {
+        width:100%;
+        height:100%;
+        top:0!important;
+        left:0!important;
+    }
+    .DW h4 a.mm
+    {
+       background-position: 0px -727px;
+    }
+        .fs h4 a.mm
+    {
+       background-position: 0px -778px;
+    }
+
+/******************* 拖动组件结束*******************/
+/******************* resize组件开始*******************/
+   .sip
+   {
+       position:relative;
+       height:444px;
+       width:100%;
+   }
+      .hi
+    {
+        position:relative;
+        width:550px;
+        height:313px;
+        border:none;
+        background-color:transparent;
+        background:#eff;
+        overflow:hidden;
+        margin-top:-94px;
+        display:none;
+    }
+   .win,
+   .win i
+   {
+    display:block;
+   }
+   .win
+   {
+       position:relative;
+       z-index:999;
+       width:88px;
+       height:88px;
+       background-color:transparent;
+       cursor:move;
+       border:1px dashed #999;
+       overflow:visible;
+       margin:0px 0 0 9px;
+   }
+   .win i
+   {
+       position:absolute;
+       z-index:1000;
+       margin:-4px;
+       width:6px;
+       height:6px;
+       background:#fff;
+       border:1px solid #666;
+       margin-bottom:9px;
+       filter:alpha(opacity=50);
+	   opacity:0.5;
+   }
+   .win i.a,
+   .win i.e
+   {
+       cursor:nw-resize;
+   }
+        .win i.e{
+            left:100%;
+            top:100%;
+            margin-bottom:9px;
+        }
+     .win i.b,
+    .win i.f
+   {
+       cursor:n-resize;
+       top:0;
+       left:50%;
+   }
+    .win i.c,
+    .win i.g
+   {
+       cursor:ne-resize;
+       top:0;
+       left:100%;
+   }
+  .win i.d,
+  .win i.h
+   {
+       cursor:e-resize;
+       top:50%;
+       left:100%;
+   }
+    .win i.f
+  {
+       top:100%;
+       left:50%;
+  }
+   .win i.g
+   {
+       top:100%;
+       left:0%;
+   }
+      .win i.h
+   {
+       top:50%;
+       left:0%;
+   }
+   .cans
+   {
+	   display:block;
+	   position:relative;
+	   width:300px;
+	   height:300px;
+	   background:#666;
+	   
+   }
+   .view
+   {
+	  display:block;
+	  position:absolute;
+	  margin:32px 0 0 380px;
+	  top:0;
+	  left:0;
+   }
+   .prev
+   {
+       display:block;
+       width:210px;
+       height:300px;
+   }
+/******************* resize组件结束*******************/
+.bts a,
+a.Btn
+{
+    display: inline-block;
+    height: 14px;
+    padding: 7px 14px 10px 14px;
+    font: 600 14px/18px "";
+    text-align: center;
+	    background: #f6ad36;
+    color: #fff;
+    border-radius:2px;
+}
+.bts a{margin-right:6px;}
+
+.Ctt a.Btn
+{
+    margin: 24px 0 0 134px;
+}
+
+a.Btn:hover
+{
+    color: #ff9;
+    filter: alpha(opacity=86);
+    opacity: 0.86;
+}
+/******************* 浮动窗体开始 *******************/
+.Fx
+{
+    position: fixed;
+    _position: absolute; /*IE6及更低版本;*/
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.RB
+{
+    width: 357px;
+    height: 161px;
+    background-image: url(/Images/6.gif);
+    right: 0px;
+    bottom: 0px;
+}
+
+.LC
+{
+    width: 87px;
+    height: 287px;
+    background-image: url(/Images/3.gif);
+    left: 0px;
+    top: 240px;
+}
+.lt
+{
+        left: 436px;
+        top: 619px;
+}
+.LB
+{
+    display: block;
+    width: 126px;
+    height: 29px;
+    left: 6px;
+    bottom: 0px;
+    background-image: url(/Images/Fbg.gif);
+    z-index: 1000;
+}
+
+    .LB a
+    {
+        line-height: 29px;
+        padding: 0 6px;
+    }
+
+.News
+{
+    width: 355px;
+    height: 232px;
+    left: 3px;
+    bottom: 0px;
+    background-image: url(/Images/Fbg.png);
+    z-index: 999;
+    overflow: visible;
+    text-align: left;
+}
+
+    .News img
+    {
+        _position: relative;
+        background: #fff;
+        padding: 3px;
+        border: 1px solid #ddd;
+        margin: -18px 18px 0 8px;
+        float: left;
+    }
+
+    .News b
+    {
+        display: block;
+        padding: 12px 4px 0 0;
+    }
+
+        .News b i, .News b a, .News b span em
+        {
+            display: inline-block;
+        }
+
+        .News b i
+        {
+            padding: 6px 10px 0 0;
+            font: 600 16px/22px "";
+        }
+
+        .News b a
+        {
+            width: 10px;
+            height: 10px;
+            background: url(/Images/FbgA.gif) no-repeat 0 0px;
+            float: right;
+            margin: 0 10px 0 0;
+        }
+
+            .News b a:hover
+            {
+                background-position: 0 -18px;
+            }
+
+            .News b a.Fc
+            {
+                background-position: -18px 0;
+            }
+
+                .News b a.Fc:hover
+                {
+                    background-position: -18px -18px;
+                }
+
+        .News b span
+        {
+            display: block;
+            padding-top: 8px;
+        }
+
+            .News b span em
+            {
+                background: url(/Images/FbgA.gif) no-repeat 0 -34px;
+                padding: 0 0 0 17px;
+                color: #444;
+            }
+
+                .News b span em.Jf
+                {
+                    background-position: 0 -60px;
+                    margin: 0 0 0 16px;
+                    padding: 0 0 0 14px;
+                }
+
+                .News b span em i
+                {
+                    height: 22px;
+                    padding: 0 4px;
+                    display: inline;
+                    color: #666;
+                }
+
+                .News b span em, .News b span em i
+                {
+                    font: 400 12px/22px "";
+                }
+
+    .News h6
+    {
+        font: 600 12px/24px "";
+        color: #333;
+        text-align: left;
+        background: none;
+        padding: 0 0 2px 27px;
+        border: none;
+    }
+
+    .News p
+    {
+        border-bottom: 1px dashed #ccc;
+        margin: 0 10px 0 10px;
+        line-height: 30px;
+    }
+
+        .News p a, .News p span, .News p a.W2
+        {
+            display: inline-block;
+        }
+
+        .News p i
+        {
+            float: right;
+            color: #999;
+            width: 66px;
+            text-align: right;
+        }
+
+        .News p a
+        {
+            color: #06c;
+            margin-right: 12px;
+            padding-left: 6px;
+        }
+
+            .News p a.W2
+            {
+                overflow: hidden;
+                width: 130px;
+                white-space: nowrap;
+                margin-right: 0;
+            }
+
+            .News p a:hover
+            {
+                color: #f60;
+            }
+/******************* 浮动窗体结束 *******************/
+
+/******************* 跑马灯开始 *******************/
+.Rtop
+{
+    background: #eee;
+    height: 24px;
+    width: 222px;
+    border: 1px solid #ccc;
+    padding: 3px 12px;
+}
+
+.Mar
+{
+    white-space: nowrap;
+    width: 498px;
+    height: 130px;
+    text-align: center;
+}
+
+.MarUp span
+{
+    white-space: normal;
+    display: block;
+}
+
+.Mar span a
+{
+    display: inline-block;
+    width: 94px;
+    height: 129px;
+    margin: 0 6px 6px 0;
+}
+
+.Mar a img
+{
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.Mar span a:hover img
+{
+    border-color: #aaa;
+}
+
+.Masks
+{
+    overflow: visible;
+    padding-top: 22px;
+    background: #f00;
+}
+
+    .Masks div.Son
+    {
+        white-space: nowrap;
+        height: 92px;
+        width: 490px;
+        background: #f00;
+        margin: 10px -12px 0 0;
+        padding: 0px 0 0 0;
+    }
+
+.Son a
+{
+    display: inline-block;
+    margin-right: 12px;
+    text-align: center;
+}
+
+    .Son a img
+    {
+        display: block;
+        padding: 1px;
+        border: 1px solid #ccc;
+    }
+
+    .Son a:hover img
+    {
+        border-color: #999;
+    }
+
+a.Prev,
+a.Next
+{
+    display: inline-block;
+    width: 16px;
+    height: 69px;
+    background: url(/Images/Arrows.gif) no-repeat 0 0px;
+    margin-top: 8px;
+}
+
+a.Prev
+{
+    background-position: -15px 0px;
+    margin-right: 8px;
+}
+
+a.Next
+{
+    margin-left: 8px;
+}
+/******************* 跑马灯结束 *******************/
+/******************* 图片展示开始 *******************/
+.Ima dd a img
+{
+    width: 538px;
+}
+
+.Ima dt
+{
+    text-align: center;
+}
+
+.Ima dt img
+    {
+        padding: 1px;
+        border: 1px solid #ddd;
+        margin: 2px 3px 0 3px;
+        cursor: pointer;
+        width: 90px;
+    }
+.Ima dt img.CM
+{
+    border-top: 2px solid #f90;
+    padding-top: 1px;
+}
+
+dl.Cot dd dl dd dl.Ima dd
+{
+    padding: 0;
+    min-height: 364px;
+    height: auto !important;
+    height: 98px;
+}
+
+dl.Cot dd dl dd dl.Imb
+{
+    position: relative;
+    height: 168px;
+    padding: 0;
+    background-image: none;
+}
+
+    dl.Cot dd dl dd dl.Imb dd
+    {
+        border: 1px solid #ccc;
+        padding: 1px;
+        width: 535px;
+        min-height: 163px;
+        height: 163px !important;
+        overflow: hidden !important;
+    }
+
+        dl.Cot dd dl dd dl.Imb dd a img
+        {
+            width: 535px;
+            margin-bottom:-26px;
+        }
+
+    dl.Cot dd dl dd dl.Imb dt
+    {
+        background: #333;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+
+        height: 24px;
+        margin:-27px 2px 2px;
+        width: 535px;
+        
+    }
+
+
+        dl.Cot dd dl dd dl.Imb dt a
+        {
+            position:relative;
+            z-index: 111;
+            padding: 0 12px;
+            font: 600 12px/24px Verdana;
+            float:right;
+        }
+
+    /*dl.Cot dd dl dd dl.Imb dd a.Txt
+    {
+        z-index: 98;
+        text-align: left;
+        font: 600 14px/26px "";
+        color: #ffe;
+    }*/
+        dl.Cot dd dl dd dl.Imb dd a
+        {
+            color:#fff;
+            font-weight:600;
+        }
+
+        dl.Cot dd dl dd dl.Imb dd a:hover
+        {
+            color: #ddd;
+        }
+
+
+    dl.Cot dd dl dd dl.Imb dt a.CM
+    {
+        background: #f60;
+        color: #fff;
+    }
+
+.Imb dt a
+{
+    color: #f00;
+}
+
+.Imb dt a, .Ima dt a
+{
+    display: inline-block;
+}
+
+    .Ima dt a.L, .Ima dt a.R
+    {
+        display: inline-block;
+        overflow: hidden;
+        width: 16px;
+        height: 69px;
+        background: url(/Images/Arrows.gif) no-repeat 0 0px;
+    }
+
+    .Ima dt a.L
+    {
+        background-position: -15px 0px;
+    }
+
+    .Ima dt a:hover
+    {
+        border-color: #ddd;
+    }
+
+    .Ima dt a.L:hover
+    {
+        background-position: -15px -68px;
+    }
+
+    .Ima dt a.R:hover
+    {
+        background-position: 0 -68px;
+    }
+
+.Ima dt img.Crt, .Ima dt img.Ho
+{
+    border-color: #999;
+}
+
+.Ima dt img.Crt
+{
+    border-top: 2px solid #f90;
+    padding-top: 1px;
+}
+
+.Bimg
+{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+    .Bimg img
+    {
+        display: block;
+        border: 1px solid #ddd;
+        padding: 1px;
+        margin: 0 auto 0px;
+        width: 520px;
+        height: 376px;
+    }
+.Imsa
+{
+    width: 578px;
+    height: 176px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    margin: 144px 0 0 0;
+}
+        .sw {
+            position: relative;
+            width: 360px;
+            overflow: hidden;
+            margin: 20px auto;
+            text-align: center;
+        }
+       .sw p {
+                white-space: nowrap;
+                background: #eee;
+                border: 1px solid #ddd;
+                padding: 1px;
+            }
+      .sw p a {
+                    display: inline-block;
+                    }
+             .pro,
+             .nxt {
+                position: absolute;
+                z-index:999;
+                top: 50%;
+                margin-top: -25px;
+                display: inline-block;
+                width: 28px;
+                height: 50px;
+                cursor: pointer;
+                background: url("images/btn.png") no-repeat;
+            }
+         .pro {
+                left: 10px;
+                background-position: 0 0;
+            }
+          .pro:hover {
+                    background-position: -30px 0;
+                }
+            .nxt {
+                right: 10px;
+                background-position: -30px -68px;
+            }
+            .nxt:hover {
+                    background-position: 0 -68px;
+                }
+
+/******************* 图片展示结束 *******************/
+.SI
+{
+    background: #eee;
+}
+
+    .SI i
+    {
+        display: block;
+        width: 100%;
+        height: 24px;
+        margin-top: -24px;
+        background: #000;
+        filter: alpha(opacity=80);
+        opacity: 0.99;
+    }
+
+    .SI b
+    {
+        display: block;
+        height: 24px;
+        margin-top: -24px;
+        position: relative;
+    }
+
+        .SI b a
+        {
+            display: inline-block;
+            color: #fff;
+            padding: 0 12px;
+            line-height: 24px;
+        }
+
+            .SI b a:hover, .SI b a.CM
+            {
+                background: #fff;
+                color: #f60;
+            }
+/******************* 菜单类展示模块 *******************/
+.Msc
+{
+    position: relative;
+}
+
+    .Msc a
+    {
+        color: #06c;
+    }
+
+        .Msc a.Ex
+        {
+            color: #f00 !important;
+        }
+
+    .Msc span
+    {
+        display:none;
+        position: absolute;
+        padding: 8px 8px 6px;
+        width: 100px;
+        background: #efefef;
+        border: 1px solid #ccc;
+    }
+        .Msc span a
+        {
+            display: block;
+            padding: 2px 6px;
+            margin-bottom: 2px;
+            background: #fefefe;
+        }
+/******************* Wave显示模块开始 *******************/
+dd.finEyeC
+{
+    height: 280px;
+    overflow: hidden;
+}
+
+.finEyeC a
+{
+    display: block;
+    height: 30px;
+    border-top: #909193 dashed 1px;
+}
+
+    .finEyeC a.CM
+    {
+        height: 224px;
+        background: #e4e8eb;
+        border-top: 0;
+        cursor: pointer;
+    }
+
+    .finEyeC a img
+    {
+        display: block;
+        float: left;
+        margin: 12px 18px 0 12px;
+        padding: 1px;
+        background: #fefefe;
+        border: 1px solid #ddd;
+        width: 236px;
+    }
+
+    .finEyeC a b
+    {
+        height: 20px;
+        line-height: 20px;
+        display: inline-block;
+        color: #203d81;
+        margin-top: 10px;
+        margin-bottom: 6px;
+        font-size: 14px;
+        padding-left: 25px;
+        background: url(http://hs.cnfol.com/ua/imgs/cms/reIBg.png) -235px -210px no-repeat;
+    }
+
+    .finEyeC a.CM:hover b
+    {
+        color: #f60;
+    }
+
+    .finEyeC a p
+    {
+        display: inline-block;
+        width: 266px;
+    }
+
+    .finEyeC a i
+    {
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+        line-height: 16pt;
+        text-align: center;
+        background: #015699;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .finEyeC a span
+    {
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        font: 400 14px/30px "";
+        color: #333;
+        background: #fff url(http://hs.cnfol.com/ua/imgs/cms/reIBg.png) 640px -188px no-repeat;
+        cursor: pointer;
+    }
+
+    .finEyeC a.CM span
+    {
+        background: #eee;
+        font-weight: bold;
+        border-bottom: #909193 dashed 1px;
+        border-top: #909193 dashed 1px;
+    }
+
+    .finEyeC a em
+    {
+        display: inline-block;
+        margin: 0 15px;
+        float: left;
+        font-weight: normal;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    .finEyeC a.CM em
+    {
+        color: #c80f00;
+    }
+/******************* Wave显示模块结束 *******************/
+.Wa a
+{
+    display: block;
+    padding-left: 20px;
+    background: url(http://hs.cnfol.com/ua/imgs/cms/insVBG.gif) 6px -166px no-repeat;
+    border-bottom: #ddd dashed 1px;
+    cursor: pointer;
+}
+
+.Wa div
+{
+    display: none;
+}
+
+.Wa a.CM
+{
+    background-position: 6px -131px;
+}
+
+.Wa div a
+{
+    height: 22px;
+    line-height: 22px;
+    background-position: 16px -96px;
+    border-bottom: #ddd dashed 1px;
+    padding-left: 26px;
+    color: #1f3e81;
+}
+/******************* 树型菜单模块*******************/
+ul.Ts li
+{
+    list-style: none;
+}
+
+ul.Ts
+{
+    background: #fff;
+    width: 222px;
+    height: 344px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+}
+
+.Ts li,
+.Ts li ul li,
+.Ts li ul li ul li,
+.Ts li ul li ul li ul li
+{
+    margin-left: 24px;
+    padding-left: 16px;
+    background: url(/Images/Tg.gif) no-repeat 0px -52px;
+}
+
+.Ts li
+{
+    margin-left: 0;
+}
+
+li.Fold ul
+{
+    display: none;
+}
+
+li.Fold
+{
+    background-position: 0px 8px!important;
+}
+
+.Ts li input
+{
+    vertical-align: middle;
+    margin: 0 2px;
+}
+/******************* Ajax登录模块开始 *******************/
+.AjLg label
+{
+    display: block;
+    height: 36px;
+    font-size: 14px;
+}
+
+    .AjLg label label.Ilb
+    {
+        display: inline;
+        vertical-align:top;
+    }
+
+        .AjLg label label.Ilb input
+        {
+            margin-right: 4px;
+        }
+
+    .AjLg label input.Txt
+    {
+        border: 1px solid #ccc;
+        padding: 2px;
+        width: 122px;
+        margin-right: 8px;
+    }
+
+    .Rg label i,
+    .AjLg label i
+    {
+        visibility: hidden;
+        padding: 0px 0 0 20px;
+        background: url(/Images/Icons.gif) no-repeat 0 -473px;
+    }
+
+.Rg label i
+{
+    font-size: 14px;
+    visibility: visible;
+    background: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 16px;
+    line-height: 16px;
+    color: #f00;
+}
+
+.AjLg label i.Ok, .AjLg label i.No
+{
+    visibility: visible;
+}
+
+.Rg label i.Ok,
+.Rg label i.No
+{
+    padding: 2px 0 0 20px;
+    margin-left: 4px;
+    background: url(/Images/Icons.gif) no-repeat 0 -473px;
+}
+
+.Rg label i.Ok,
+.AjLg label i.Ok
+{
+    color: #090;
+    display: inline-block;
+}
+
+.Rg label i.No,
+.AjLg label i.No
+{
+    color: #f60;
+    background-position: 0 -523px;
+}
+
+.BtnLg
+{
+    display: inline-block;
+    width: 74px;
+    height: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0 10px 0 56px;
+    background: url(/Images/Smt.gif) no-repeat 0 -219px;
+}
+    .BtnLg:hover
+    {
+        color: #ffc;
+    }
+.Ls
+    {
+        display:block;
+        width:333px;
+        height:100px;
+    }
+.Ls a
+{
+    display:block;
+	background:url(/Images/Arrow.gif) no-repeat 0px -92px;
+	height:24px;
+	padding-left:10px;
+	white-space:normal;
+}
+
+/******************* 表单批量验证组件*******************/
+dl.Cot dd dl dd.Fs
+{
+    padding-top: 0;
+}
+
+.Fs form
+{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #eee;
+    margin-top: 10px;
+}
+
+.Rg label
+{
+    display: block;
+    height: 36px;
+    padding-left: 50px;
+    vertical-align: top;
+}
+
+    .Rg label b
+    {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: right;
+        letter-spacing: 2px;
+        width: 90px;
+        vertical-align: top;
+    }
+
+label.Mb b
+{
+    width: 60px;
+}
+
+.Rg label.Mb input
+{
+    width: 80px;
+}
+
+.Rg label input
+{
+    border: 1px solid #BBBBBB;
+    padding: 2px;
+    margin-right: 2px;
+    width: 122px;
+}
+
+.Rg label.Sex label
+{
+    display: inline-block;
+    width: 44px;
+}
+
+    .Rg label.Sex label input
+    {
+        height: auto;
+        width: auto;
+        vertical-align: middle;
+        border: none;
+    }
+
+.Rg label label
+{
+    display: inline;
+    padding-left: 0;
+}
+
+.Rg label i
+{
+    padding-left: 6px;
+}
+
+.Rg label select
+{
+    border: 1px solid #BBBBBB;
+    height: 22px;
+    padding: 1px;
+    margin-right: 8px;
+    width: 128px;
+}
+
+.Rg .BtnLg
+{
+    margin-left: 140px;
+    font: 600 14px/26px "";
+}
+
+label input.W1
+{
+    width: 100px;
+}
+/******************* 全选/取消全选组件*******************/
+.Ca
+{
+    width: 228px;
+    height: 360px;
+}
+
+    .Ca label
+    {
+        display: inline-block;
+        padding: 4px;
+    }
+
+        .Ca label.Itr
+        {
+            display: block;
+            background: #eee;
+        }
+
+        .Ca label input
+        {
+            vertical-align: middle;
+        }
+
+.Tc
+{
+}
+
+.Ts1
+{
+    filter: alpha(opacity=0);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/******************* 日历组件*******************/
+
+.Cs p,
+.Ps
+{
+    display: block;
+    width: 176px;
+    height: 203px;
+    background:#ddd;
+    outline:none;
+}
+.Cs a,
+.Ps a,
+.Ps b
+    {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        line-height:24px;
+        text-align: center;
+        background: #fff;
+        margin: 1px 0 0 1px;
+        cursor: pointer;
+   
+    }
+    .Ps b
+    {
+        font-weight: 400;
+        cursor:default;
+    }
+.Cs
+{
+    width:534px;
+    height:244px;
+    border:1px solid #ddd;
+    padding:0px 20px 6px;
+    background:#eee;
+}
+.Cs a.Nm
+{
+    margin-left:482px;
+}
+.Cs p
+{
+    display:inline-block;
+    text-align:center;
+    border:1px solid #999;
+    margin-left:-1px;
+}
+
+a.Py,
+a.Pm,
+a.Nm,
+a.Ny,
+b.Y,
+b.M
+        {
+            vertical-align:middle;
+            width: 22px;
+            background:url(/Images/FbgA.gif) no-repeat 8px -98px;
+            padding: 1px 0 0 0px;
+        }
+b.Y,
+b.M
+{
+    display: inline-block;
+    font-weight: 400;
+    background-image:none;
+    padding:0 2px;
+    margin:0;
+    width:32px;
+    
+}
+.Ps b.M
+{
+    width:20px;
+}
+a.Py:hover
+{
+    background-position: 8px -81px;
+}
+a.Pm
+{
+    background-position: 8px -133px;
+}
+
+a.Nm
+{
+    background-position: -12px -133px;
+}
+
+a.Ny
+{
+    background-position: -12px -98px;
+}
+a.Ny:hover
+    {
+        background-position: -12px -81px;
+    }
+
+a.Nm:hover
+{
+    background-position: -12px -116px;
+}
+
+a.Pm:hover
+{
+    background-position: 8px -116px;
+}
+.Ps a.Pn
+{
+    color:#ccc;
+}
+.Ps a.Pn:hover
+{
+    color:#f60;
+}
+a.No
+        {
+           color:#666;
+        }
+a.Td
+        {
+            background-color: #ffc;
+        }
+a.Sd
+{
+    font-weight:600;
+    color:#f60;
+    background:#ffc;
+}
+.Abs
+{
+    display:none;
+    position: absolute;
+    margin-top: 2px;
+}
+
+
+.Tmp a
+{
+    display: inline-block;
+    color: #f60;
+    font-weight: 600;
+}
+
+.CldBg
+{
+    background: url(/Images/Icons.gif) no-repeat 98% -672px;
+}
+
+.CldT
+{
+    border: 1px solid #ccc;
+    height: 22px;
+    padding: 1px;
+    margin-right: 10px;
+    width: 106px;
+}
+/******************* 日历组件*******************/
+.Cnzz a
+{
+    color: #eee;
+}
+select
+    {
+        background: none repeat scroll 0 0 #FFFFF5;
+        border: 1px solid #BCB691;
+        border-radius: 3px 3px 3px 3px;
+        margin: 0 0 3px;
+        padding: 4px;
+        width: auto;
+    }
