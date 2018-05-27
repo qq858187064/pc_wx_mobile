@@ -230,6 +230,16 @@ return eval(Str.startsWith("{") ? "(" + Str + ")" : "({" + Str + "})")
 			o.fireEvent("on"+e.type,e)
 		//a["on"+e.type]=
 	},
+    /* 阻止事件默认行为 */
+	PreventDefault: function (e) {
+	    if (e && e.preventDefault) {
+	        e.preventDefault();
+	    }
+	    else {
+	        e.returnValue = false;
+	    }
+	    return false;
+	},
     /* 删除传入元素的class属性  */
     DelClass: function (M, Cn) {
         if (M) {

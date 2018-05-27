@@ -29,7 +29,8 @@
                 C.AddEvent(vp, "touchmove", this.rule, v)
                 C.AddEvent(vp, "touchend", this.rule, v);
             }
-            else  /*//pc*/ {
+            else  /*//pc*/
+            {
                 C.AddEvent(vp, "click", this.rule, v);
                 var cx = vp.offsetWidth / 2;
                 C.AddEvent(vp, "mousemove", function (e) {
@@ -64,7 +65,7 @@
                 y = o.ep.y - o.sp.y;
                 if (Math.abs(x) < 2 && Math.abs(y) < 2)  /*/如果滑动距离太短*/
                     return;
-                var a = Math.atan2(y, x) * 180 / Math.PI;/*//用反正切求夹角度数*/
+                    var a = Math.atan2(y, x) * 180 / Math.PI;/*//用反正切求夹角度数*/
                 if (x > 0 && a >= -45 && a < 45) {
                     o.r = 4;
                     /*console.log("右");*/
@@ -75,7 +76,7 @@
                 }
                 else if (y > 0 && a >= 45 && a < 135) {
                     o.r = 2;
-                    /*console.log("下");*/
+                    /*console.log("下");*/ 
                 }
                 else if (y < 0 && a >= -135 && a < -45) {
                     o.r = 1;
@@ -126,16 +127,16 @@
             i.onload = function () {
                 var w = i.width,
                 h = i.height;
-                console.log("w：" + w + "_h：" + h + "_complete：" + i.complete)
                 if (h > w) {
                     o.style.height = h > wh ? "100%" : "auto";
                     o.style.width = "auto";
-                    console.log(1 + "_" + h > wh)
+                    console.log(1)
 
                 }
                 else if (h < w) {
                     o.style.width = w > ww && h < wh ? "100%" : "auto";
-                    console.log(2 + "_" + w > ww && h < wh)
+                    o.style.height = "auto";
+                    console.log(2)
                 }
                 else {
                     o.style.width = o.style.height = "auto";
@@ -147,3 +148,15 @@
     }
     C.Batch();
 }
+/* 移入文档
+pc+mobile+wx
+swipe组件rule方法中为传入对象o设置了以下属性：
+o.sp、o.ep是当前滑屏事件中触点的开始位置和结束位置对象，未来可扩展滑动距离等
+o.r：根据起、终点求角度、判断并返回方向0：未滑动，1：向上，2：向下，3：向左，4：向右；
+而handle函数是滑动事件处理程序，原则上是自定义且在o对象上设置，
+但目前的需求较单一，先直接写入组件，未来根据需求再扩展
+
+html中的p属性中：
+s: 用于设置切换源,目前仅考虑图片，未来可扩展
+v:用于指定显示媒体的窗口
+*/
